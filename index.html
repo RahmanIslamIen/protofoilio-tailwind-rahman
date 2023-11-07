@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Tailwind CSS</title>
+    <title>Portfolio Tailwind CSS</title> 
     <link href="dist/css/final.css" rel="stylesheet" />
+    <link href="dist/css/aos.css" rel="stylesheet">
     <script>
       if (
         localStorage.theme === "dark" ||
@@ -121,11 +122,11 @@
 
     <!-- Hero Section Start -->
     <section id="home" class="pt-36 dark:bg-dark" 
-    style="background-image: url('./dist/img/hero_section-background.jpg'); 
+    style="background-image: url('./dist/img/hero_section-background.webp'); 
     background-repeat: no-repeat; background-size: cover;">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full self-center px-4 lg:w-1/2">
+          <div class="w-full self-center px-4 lg:w-1/2" data-aos="fade-right">
             <h1 class="text-base font-semibold text-primary md:text-xl">
               Halo Semua 👋, saya
               <span
@@ -153,7 +154,7 @@
               >Hubungi Saya</a
             >
           </div>
-          <div class="w-full self-end px-4 lg:w-1/2">
+          <div class="w-full self-end px-4 lg:w-1/2" data-aos="fade-up">
             <div class="relative mt-10 lg:right-0 lg:mt-9">
               <img
                 src="dist/img/rahman-islam.png"
@@ -187,7 +188,7 @@
     <section id="about" class="pt-36 pb-32 dark:bg-dark">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="mb-10 w-full px-4 lg:w-1/2">
+          <div class="mb-10 w-full px-4 lg:w-1/2" data-aos="fade-up-right">
             <h4 class="mb-3 text-lg font-bold uppercase text-primary">
               Tentang Saya
             </h4>
@@ -205,7 +206,7 @@
               dengan tim.
             </p>
           </div>
-          <div class="w-full px-4 lg:w-1/2">
+          <div class="w-full px-4 lg:w-1/2" data-aos="fade-up-left">
             <h3
               class="mb-4 text-2xl font-semibold text-dark dark:text-white lg:pt-10 lg:text-3xl"
             >
@@ -296,7 +297,7 @@
     <section id="portfolio" class="bg-slate-100 pt-36 pb-16 dark:bg-slate-800">
       <div class="container">
         <div class="w-full px-4">
-          <div class="mx-auto mb-16 max-w-xl text-center">
+          <div class="mx-auto mb-16 max-w-xl text-center" data-aos="fade-down" data-aos-duration="1500">
             <h4 class="mb-2 text-lg font-semibold text-primary">Portfolio</h4>
             <h2
               class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl"
@@ -313,10 +314,10 @@
         <div
           class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12"
         >
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2" data-aos="zoom-in">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
-                src="dist/img/portfolio/web-protofolio.png"
+                src="dist/img/portfolio/web-protofolio.jpg"
                 alt="Landing Page"
                 width="w-full"
               />
@@ -330,10 +331,10 @@
               program crud livewire dengan pengelolaan data secara realtime.
             </p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2" data-aos="zoom-in">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
-                src="dist/img/portfolio/web-protofolio.png"
+                src="dist/img/portfolio/web-protofolio.jpg"
                 alt="E-Commerce"
                 width="w-full"
               />
@@ -348,10 +349,10 @@
               bisa membantu orang dengan lisensi open soruce.
             </p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2" data-aos="zoom-in">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
-                src="dist/img/portfolio/web-protofolio.png"
+                src="dist/img/portfolio/web-protofolio.jpg"
                 alt="Technical Documentation"
                 width="w-full"
               />
@@ -365,10 +366,10 @@
               website komunitas TDA Batam yang bergerak untuk para wirausahawan.
             </p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2" data-aos="zoom-in">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
-                src="dist/img/portfolio/web-protofolio.png"
+                src="dist/img/portfolio/web-protofolio.jpg"
                 alt="Tribute Page"
                 width="w-full"
               />
@@ -390,7 +391,7 @@
 
     <!-- Clients Section Start -->
     <section id="clients" class="bg-slate-800 pt-36 pb-32 dark:bg-slate-300">
-      <div class="container">
+      <div class="container" data-aos="zoom-out" data-aos-duration="3000">
         <div class="w-full px-4">
           <div class="mx-auto mb-16 text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">
@@ -402,7 +403,8 @@
               Pernah Bekerja
             </h2>
             <p class="text-md font-medium text-secondary md:text-lg">
-              dalam bidang ini saya sudah mempunyai beberapa pengalaman kerja
+              dalam bidang ini saya sudah mempunyai beberapa pengalaman 
+              mangang, kerja, dan studi independen
               diantaranya
             </p>
           </div>
@@ -414,13 +416,13 @@
               href="#"
               class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8"
             >
-              <p class="text-secondary">Gledek.com</p>
+              <img src="dist/img/pengalaman/dicoding.png" />
             </a>
             <a
               href="#"
               class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8"
             >
-              <p class="text-secondary">Universitas Budiluhur</p>
+              <img src="dist/img/pengalaman/universitas_budi-luhur.png" />
             </a>
           </div>
         </div>
@@ -431,7 +433,7 @@
     <!-- Blog Section Start -->
     <section id="jasa" class="bg-slate-100 pt-36 pb-32 dark:bg-dark">
       <div class="container">
-        <div class="w-full px-4">
+        <div class="w-full px-4" data-aos="flip-right" data-aos-duration="2000">
           <div class="mx-auto mb-16 max-w-xl text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">Layanan</h4>
             <h2
@@ -449,9 +451,10 @@
           <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
             <div
               class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800"
+              data-aos="zoom-in-down"
             >
               <img
-                src="https://source.unsplash.com/360x200?programming"
+                src="dist/img/jasa/pembuatan-blog.webp"
                 alt="Programming"
                 class="w-full"
               />
@@ -477,9 +480,10 @@
           <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
             <div
               class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800"
+              data-aos="zoom-in-down"
             >
               <img
-                src="https://source.unsplash.com/360x200?mechanical+keyboard"
+                src="dist/img/jasa/pembuatan-website.webp"
                 alt="Mechanical Keyboard"
                 class="w-full"
               />
@@ -495,7 +499,7 @@
                   aplikasi web dengan fitur yang bisa di sesuaikan sesuai kebutuhan anda juga dengan desain yang keren.
                 </p>
                 <a
-                  href="#contact"
+                  href="https://wa.me/6281315679314"
                   class="rounded-lg bg-primary py-2 px-4 text-sm font-medium text-white hover:opacity-80"
                   >Hubungi Saya</a
                 >
@@ -505,9 +509,10 @@
           <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
             <div
               class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800"
+              data-aos="zoom-in-down"
             >
               <img
-                src="https://source.unsplash.com/360x200?coffee"
+                src="dist/img/jasa/pembuatan-tema-wordpress.webp"
                 alt="Coffee"
                 class="w-full"
               />
@@ -523,7 +528,7 @@
                   tema wordpress menarik dengan harga terjangkau dengan desain yang bisa di sesuaikan kebutuhan anda.
                 </p>
                 <a
-                  href="#contact"
+                  href="https://wa.me/6281315679314"
                   class="rounded-lg bg-primary py-2 px-4 text-sm font-medium text-white hover:opacity-80"
                   >Hubungi Saya</a
                 >
@@ -537,7 +542,7 @@
 
     <!-- Contact Section Start -->
     <section id="contact" class="pt-36 pb-32 dark:bg-slate-800">
-      <div class="container">
+      <div class="container" data-aos="flip-left">
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">Contact</h4>
@@ -558,6 +563,7 @@
           <div class="flex flex-wrap items-center justify-center">
             <div class="mx-4 max-w-[120px] py-4 lg:mx-6 xl:mx-8">
               <center>
+                <a href="mailto:rahmanislamien@gmail.com">
                 <img
                 src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
                 width="50px"
@@ -567,16 +573,19 @@
                 <p class="text-secondary text-sm" size="8pt">
                   rahmanislamien@gmail.com
                 </p>
+              </a>
               </center>
             </div>
             <div class="mx-4 max-w-[120px] py-4 lg:mx-6 xl:mx-8">
               <center>
-                <img
+                <a href="https://wa.me/6281315679314">
+                  <img
                   src="https://cdn-icons-png.flaticon.com/512/1384/1384055.png"
                   width="50px"
                   height="50px"
-                />
-                <p class="text-secondary text-sm">0813-1567-9314</p>
+                  />
+                  <p class="text-secondary text-sm">0813-1567-9314</p>
+                </a>
               </center>
             </div>
           </div>
@@ -766,8 +775,12 @@
 
     <script src="dist/js/script.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
+    <script src="dist/js/aos.js"></script>
     <script>
       feather.replace()
+    </script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
