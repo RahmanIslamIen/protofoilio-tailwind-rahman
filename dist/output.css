@@ -755,10 +755,6 @@ video {
   max-width: 120px;
 }
 
-.max-w-\[220px\] {
-  max-width: 220px;
-}
-
 .max-w-\[250px\] {
   max-width: 250px;
 }
@@ -773,10 +769,6 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
-}
-
-.max-w-\[180px\] {
-  max-width: 180px;
 }
 
 .origin-bottom-left {
